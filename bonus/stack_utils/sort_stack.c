@@ -41,9 +41,12 @@ static void sort_it(t_stack **a, t_stack **b, t_stack **inst)
 			
 void	sort_stack(t_stack **a, t_stack **b, t_stack **inst)
 {
-	while((*inst))
+	t_stack *tmp;
+
+	tmp = *inst;
+	while(tmp)
 	{
-		sort_it(a, b, inst);
-		(*inst) = (*inst)->next;
+		sort_it(a, b, &tmp);
+		tmp = tmp->next;
 	}
 }

@@ -14,11 +14,8 @@
 
 int b_empty(t_stack *b)
 {
-	t_stack *tmp;
-
 	if(!b)
 		return(1);
-	tmp = b;
 	if(stack_node(b) == 0)
 		return (1);
 	return (0);

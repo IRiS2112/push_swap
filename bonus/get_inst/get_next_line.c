@@ -92,7 +92,7 @@ char	*get_next_line(int fd)
 	static char	*buffer;
 	char		*line;
 
-	if (fd < 0 || fd > OPEN_MAX)
+	if (fd < 0)
 		return (NULL);
 	buffer = ft_read(fd, buffer);
 	if (!buffer)
