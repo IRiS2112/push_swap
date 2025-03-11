@@ -1,6 +1,6 @@
 # PushSwap
 
-PushSwap is a sorting algorithm project. The program is designed to sort a list of integers using a limited set of operations. The goal is to implement an efficient algorithm that minimizes the number of operations used to sort the list.
+PushSwap is a sorting algorithm project designed to sort a list of integers using a limited set of operations. The goal is to implement an efficient algorithm that minimizes the number of operations required to sort the list.
 
 ## Description
 
